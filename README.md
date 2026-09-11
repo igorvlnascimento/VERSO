@@ -1,6 +1,6 @@
-# OM_System — Complex Ontology Matching Tutorial
+# VERSO — VERbalization and Structural mOdularization
 
-OM_System is a modular pipeline for **complex ontology matching** (OM): given two OWL/RDF ontologies, it finds semantic correspondences between their concepts and expresses them in [EDOAL](http://alignapi.gforge.inria.fr/edoal.html) format. The pipeline chains six stages — Preprocessing → Verbalization → Candidate Generation → Matching → Postprocessing → Evaluation — and is driven by a YAML config file via [Hydra](https://hydra.cc).
+VERSO is a modular pipeline for **complex ontology matching** (OM): given two OWL/RDF ontologies, it finds semantic correspondences between their concepts and expresses them in [EDOAL](http://alignapi.gforge.inria.fr/edoal.html) format. The pipeline chains six stages — Preprocessing → Verbalization → Candidate Generation → Matching → Postprocessing → Evaluation — and is driven by a YAML config file via [Hydra](https://hydra.cc).
 
 ---
 
