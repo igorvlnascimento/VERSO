@@ -2,6 +2,12 @@
 
 VERSO is a modular pipeline for **complex ontology matching** (OM): given two OWL/RDF ontologies, it finds semantic correspondences between their concepts and expresses them in [EDOAL](http://alignapi.gforge.inria.fr/edoal.html) format. The pipeline chains six stages — Preprocessing → Verbalization → Candidate Generation → Matching → Postprocessing → Evaluation — and is driven by a YAML config file via [Hydra](https://hydra.cc).
 
+## Paper
+
+This repository holds the code of the paper *Complex Ontology Matching with LLMs: Combining Topological Modularization and Graph Verbalization* (Igor Nascimento, Rinaldo Lima and Cassia Trojahn), presented at OM'26, the 21st International Workshop on Ontology Matching, co-located with ISWC 2026.
+
+Mirrors: [GitHub](https://github.com/igorvlnascimento/VERSO) and [GitLab (CIn/UFPE)](https://gitlab.cin.ufpe.br/ivln/verso).
+
 ---
 
 ## Table of Contents
@@ -45,7 +51,7 @@ llama-cpp-python, lxml, bs4
 ```bash
 # Clone the repository
 git clone <repo-url>
-cd OM_System
+cd VERSO
 
 # Create and activate a virtual environment (uv recommended)
 uv venv && source .venv/bin/activate
@@ -401,7 +407,7 @@ The system accepts both `.owl` and `.rdf` file extensions and auto-detects them.
 ## Project Structure
 
 ```
-OM_System/
+VERSO/
 ├── pyproject.toml                  # project metadata and dependencies
 ├── download_benchmark.sh           # downloads datasets and references
 ├── datasets/                       # OWL/RDF ontology files
